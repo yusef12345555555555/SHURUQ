@@ -342,8 +342,9 @@ export const OutroCinematic: React.FC<OutroCinematicProps> = ({ onRestart }) => 
             <div className="text-xs sm:text-sm font-mono text-cyan-400/90 tracking-widest uppercase">
               مقدم من الطالبة
             </div>
-            <div className="text-2xl sm:text-3xl font-black text-slate-100 tracking-tight">
-              شروق رفاعي
+            <div className="flex items-center justify-center sm:justify-end gap-2.5 bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-400 bg-clip-text text-transparent drop-shadow-[0_2px_14px_rgba(245,158,11,0.45)]">
+              <span className="font-signature-ar text-3xl sm:text-4xl font-bold">شروق رفاعي</span>
+              <span className="font-signature-en text-3xl sm:text-4xl font-bold">Shorouk Refaay</span>
             </div>
             <div className="text-xs text-slate-400 font-sans">
               أكاديمية طيبة - المعادي

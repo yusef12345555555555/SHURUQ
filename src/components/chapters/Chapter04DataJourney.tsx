@@ -12,6 +12,7 @@ import {
   TrendingUp
 } from 'lucide-react';
 import { ChapterHeader } from '../common/ChapterHeader';
+import { PageSignatureFooter } from '../common/PageSignatureFooter';
 
 export const Chapter04DataJourney: React.FC = () => {
   const [activeStageIndex, setActiveStageIndex] = useState<number>(0);
@@ -181,6 +182,7 @@ export const Chapter04DataJourney: React.FC = () => {
           </div>
         </div>
       </div>
+      <PageSignatureFooter />
     </section>
   );
 };

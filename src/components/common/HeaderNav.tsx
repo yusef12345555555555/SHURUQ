@@ -62,7 +62,10 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({
             </div>
             <div className="text-right">
               <div className="flex items-center gap-1.5">
-                <span className="text-xs font-bold text-slate-100 tracking-wide">شروق رفاعي</span>
+                <span className="flex items-center gap-1.5 bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-400 bg-clip-text text-transparent">
+                  <span className="font-signature-ar text-sm font-bold">شروق رفاعي</span>
+                  <span className="font-signature-en text-sm font-bold">Shorouk Refaay</span>
+                </span>
                 <span className="text-[10px] px-1.5 py-0.2 rounded bg-cyan-950 text-cyan-400 border border-cyan-800/60 font-mono">طيبة المعادي</span>
               </div>
             </div>

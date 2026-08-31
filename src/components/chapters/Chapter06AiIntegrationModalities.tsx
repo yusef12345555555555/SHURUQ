@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Brain, TrendingUp, MessageSquareText, Eye, ShieldCheck, Sparkles, Bot, Play, CheckCircle2, RefreshCw } from 'lucide-react';
 import { ChapterHeader } from '../common/ChapterHeader';
 import { VISUAL_ASSETS } from '../../data/visualAssets';
+import { PageSignatureFooter } from '../common/PageSignatureFooter';
 
 export const Chapter06AiIntegrationModalities: React.FC = () => {
   const [selectedEngineId, setSelectedEngineId] = useState<string>('predictive');
@@ -239,6 +240,7 @@ export const Chapter06AiIntegrationModalities: React.FC = () => {
           ) : null}
         </div>
       </div>
+      <PageSignatureFooter />
     </section>
   );
 };

@@ -16,6 +16,7 @@ import {
   Play,
 } from "lucide-react";
 import { ChapterHeader } from "../common/ChapterHeader";
+import { PageSignatureFooter } from '../common/PageSignatureFooter';
 
 export const Chapter07DecisionLab: React.FC = () => {
   const [activeModule, setActiveModule] = useState<
@@ -547,6 +548,7 @@ export const Chapter07DecisionLab: React.FC = () => {
           </div>
         </div>
       )}
+      <PageSignatureFooter />
     </section>
   );
 };

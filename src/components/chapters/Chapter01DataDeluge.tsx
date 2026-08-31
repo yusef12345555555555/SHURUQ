@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { ChapterHeader } from "../common/ChapterHeader";
 import { VISUAL_ASSETS } from "../../data/visualAssets";
+import { PageSignatureFooter } from '../common/PageSignatureFooter';
 
 export const Chapter01DataDeluge: React.FC = () => {
   const [noiseLevel, setNoiseLevel] = useState<number>(60);
@@ -245,6 +246,7 @@ export const Chapter01DataDeluge: React.FC = () => {
           )}
         </div>
       </div>
+      <PageSignatureFooter />
     </section>
   );
 };

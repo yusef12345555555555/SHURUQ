@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Target, TrendingUp, AlertTriangle, CheckCircle2, Sparkles, UserCheck, ShieldCheck } from 'lucide-react';
 import { ChapterHeader } from '../common/ChapterHeader';
 import { VISUAL_ASSETS } from '../../data/visualAssets';
+import { PageSignatureFooter } from '../common/PageSignatureFooter';
 
 export const Chapter08DssSimulation: React.FC = () => {
   const [selectedScenarioIndex, setSelectedScenarioIndex] = useState<number>(0);
@@ -179,6 +180,7 @@ export const Chapter08DssSimulation: React.FC = () => {
       </div>
 
       <div id="chapter-08-end-trigger" aria-hidden="true" className="h-10" />
+      <PageSignatureFooter />
     </section>
   );
 };

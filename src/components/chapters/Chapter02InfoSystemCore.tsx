@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { ChapterHeader } from "../common/ChapterHeader";
 import { VISUAL_ASSETS } from "../../data/visualAssets";
+import { PageSignatureFooter } from "../common/PageSignatureFooter";
 
 export const Chapter02InfoSystemCore: React.FC = () => {
   const [selectedPillarId, setSelectedPillarId] = useState<string>("data");
@@ -468,7 +469,7 @@ export const Chapter02InfoSystemCore: React.FC = () => {
           <div className="p-3 rounded-xl bg-cyan-950/20 border border-cyan-500/25 space-y-0.5">
             <div className="text-[11px] font-bold text-cyan-300 flex items-center gap-1">
               <Sparkles className="w-3 h-3 text-cyan-400" />
-              <span>التعريف والشرح الأكاديمي:</span>
+              <span>التعريف :</span>
             </div>
             <p className="text-xs text-slate-200 leading-relaxed font-semibold">
               "{current.definitionAr}"
@@ -719,6 +720,7 @@ export const Chapter02InfoSystemCore: React.FC = () => {
           </div>
         </div>
       </div>
+      <PageSignatureFooter />
     </section>
   );
 };

@@ -23,6 +23,14 @@
   }
 }
 
+.font-signature-ar {
+  font-family: 'Aref Ruqaa Ink', 'Cairo', cursive, serif;
+}
+
+.font-signature-en {
+  font-family: 'Alex Brush', 'Cairo', cursive, serif;
+}
+
 /* Custom glowing effects */
 .glow-cyan {
   box-shadow: 0 0 35px -5px rgba(6, 182, 212, 0.35);
