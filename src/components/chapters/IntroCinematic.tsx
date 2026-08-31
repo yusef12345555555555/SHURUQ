@@ -349,8 +349,9 @@ export const IntroCinematic: React.FC<IntroCinematicProps> = ({
                 <div className="text-[11px] text-slate-400">
                   مقدم من الخريجة :
                 </div>
-                <div className="text-xl font-black text-slate-100">
-                  شروق رفاعي
+                <div className="flex items-center gap-2 bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-400 bg-clip-text text-transparent">
+                  <span className="font-signature-ar text-2xl font-bold">شروق رفاعي</span>
+                  <span className="font-signature-en text-2xl font-bold">Shorouk Refaay</span>
                 </div>
               </div>
             </div>
