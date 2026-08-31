@@ -212,7 +212,7 @@ export const IntroCinematic: React.FC<IntroCinematicProps> = ({
           onClick={() => setPhase(5)}
           className="absolute top-6 left-6 text-[11px] font-mono text-slate-400 hover:text-cyan-400 px-4 py-2 rounded-full border border-slate-800 bg-slate-950/80 backdrop-blur-md transition-all z-30 cursor-pointer"
         >
-          تخطي المقدمة (Skip to Title) ↵
+         (Skip to Title) ↵
         </button>
       )}
 
@@ -373,7 +373,7 @@ export const IntroCinematic: React.FC<IntroCinematicProps> = ({
               onClick={handleTriggerEnter}
               className="group relative inline-flex items-center gap-3 px-8 py-3.5 rounded-2xl bg-gradient-to-r from-cyan-500 via-blue-600 to-violet-600 hover:from-cyan-400 hover:to-violet-500 text-slate-950 font-black text-sm sm:text-base shadow-xl shadow-cyan-500/20 hover:scale-105 transition-all duration-300 cursor-pointer"
             >
-              <span>ابدأ الرحلة</span>
+              <span>نبدا الرحلة</span>
               <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
             </button>
             <div className="text-[11px] text-slate-500 font-mono flex items-center gap-1.5">
