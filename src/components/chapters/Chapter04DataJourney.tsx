@@ -65,7 +65,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'prediction',
       number: '05',
-      titleAr: 'استخدام الذكاء الاصطناعي للتنبؤ',
+      titleAr: 'استخدام AI للتنبؤ',
       subtitleEn: 'Time-Series & Scenario Forecasting',
       descAr: 'بناء سيناريوهات مستقبلية دقيقة لحجم الطلب، تدفق السيولة، أو احتمالات الأعطال.',
       entropyPercent: 12,
