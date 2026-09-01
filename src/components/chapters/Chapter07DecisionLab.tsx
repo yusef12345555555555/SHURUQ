@@ -100,7 +100,7 @@ export const Chapter07DecisionLab: React.FC = () => {
       <ChapterHeader
         number="05"
         titleAr="الفصل الخامس"
-        subtitleAr="مختبر صناعة القرار والتحليل التنبؤي (Interactive Decision Lab)"
+        subtitleAr=" صناعة القرار والتحليل التنبؤي (Interactive Decision Lab)"
         labelEn="AI DECISION & ANALYTICS LAB"
         accentColor="cyan"
       />
@@ -111,7 +111,7 @@ export const Chapter07DecisionLab: React.FC = () => {
           INTERACTIVE EXPERIMENTATION LAB
         </div>
         <h3 className="text-2xl sm:text-4xl font-black text-slate-100 leading-snug">
-          "مختبر عملي يربط جودة البيانات، نماذج التنبؤ، والتحليل الحسابي لإنتاج
+          "  ربط جودة البيانات، نماذج التنبؤ، والتحليل الحسابي لإنتاج
           توصية تنفيذية موثوقة."
         </h3>
         <p className="text-sm text-slate-300 max-w-3xl leading-relaxed">
