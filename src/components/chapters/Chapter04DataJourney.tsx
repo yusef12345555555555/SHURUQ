@@ -21,7 +21,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'collection',
       number: '01',
-      titleAr: 'جمع البيانات   (Data Ingestion)',
+      titleAr: 'جمع البيانات   ( Data Collection)',
       subtitleEn: 'IoT, Webhooks & Transaction Logs',
       descAr: 'استقبال سيل البيانات غير المنظمة من نقاط البيع، أجهزة الاستشعار، والتطبيقات على مدار الساعة.',
       entropyPercent: 95,
@@ -32,7 +32,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'processing',
       number: '02',
-      titleAr: 'تنظيف البيانات  (Cleaning & ETL)',
+      titleAr: 'تنظيف البيانات  (Data Cleansing)',
       subtitleEn: 'Validation, Normalization & Filtering',
       descAr: 'إزالة السجلات المكررة، سد الفجوات والقيم المفقودة، وتوحيد الصيغ الزمنية والمعايير الحسابية.',
       entropyPercent: 70,
@@ -43,7 +43,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'organization',
       number: '03',
-      titleAr: 'تنظيم البيانات (Structuring & Modeling)',
+      titleAr: 'تنظيم البيانات (Data Organization)',
       subtitleEn: 'Relational Schemas & Warehouses',
       descAr: 'بناء العلاقات المنطقية، جداول الأبعاد، وربط العمليات بالسياق الإداري والجغرافي.',
       entropyPercent: 45,
@@ -54,7 +54,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'ai-analysis',
       number: '04',
-      titleAr: 'تحليل البيانلت  (AI & Pattern Mining)',
+      titleAr: 'تحليل البيانلت  (Data Analysis)',
       subtitleEn: 'Machine Learning & Clustering',
       descAr: 'اكتشاف الأنماط غير المرئية، استخراج الاتجاهات الخفية، وربط العلاقات المعقدة بين المتغيرات.',
       entropyPercent: 25,
@@ -66,7 +66,7 @@ export const Chapter04DataJourney: React.FC = () => {
       id: 'prediction',
       number: '05',
       titleAr: 'استخدام AI للتنبؤ',
-      subtitleEn: 'Time-Series & Scenario Forecasting',
+      subtitleEn: 'Predictive AI',
       descAr: 'بناء سيناريوهات مستقبلية دقيقة لحجم الطلب، تدفق السيولة، أو احتمالات الأعطال.',
       entropyPercent: 12,
       valueScore: 90,
@@ -76,7 +76,7 @@ export const Chapter04DataJourney: React.FC = () => {
     {
       id: 'decision',
       number: '06',
-      titleAr: 'الوصول إلى توصية وقرار (Prescriptive Action)',
+      titleAr: 'الوصول إلى توصية وقرار (Prescriptive Analytics)',
       subtitleEn: 'Augmented Decision Execution',
       descAr: 'تحويل الرؤية إلى قرار عملي محدد يرفع الأرباح، يحصن المنظمة ضد المخاطر، ويقتنص الفرص.',
       entropyPercent: 2,
