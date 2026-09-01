@@ -64,7 +64,7 @@ export const Chapter06AiIntegrationModalities: React.FC = () => {
     },
     {
       id: 'anomaly',
-      nameAr: 'محركات كشف الاحتيال والشذوذ (Anomaly Detection)',
+      nameAr: 'محركات كشف الاحتيال  (Anomaly Detection)',
       roleAr: 'رصد المعاملات المالية المشبوهة واختراقات الشبكة في أجزاء من الثانية.',
       techAr: 'Isolation Forests, Autoencoders, Graph Neural Networks',
       demo: {
@@ -124,7 +124,7 @@ export const Chapter06AiIntegrationModalities: React.FC = () => {
       <ChapterHeader
         number="04"
         titleAr="الفصل الرابع"
-        subtitleAr="دخول العقل الرقمي: محركات وتكامل الذكاء الاصطناعي"
+        subtitleAr=" العقل الرقمي: محركات وتكامل الذكاء الاصطناعي"
         labelEn="AI COGNITIVE ENGINES & PATTERN MINING"
         accentColor="violet"
       />
