@@ -208,7 +208,7 @@ export const Chapter06AiIntegrationModalities: React.FC = () => {
           {isProcessing ? (
             <div className="py-12 flex flex-col items-center justify-center space-y-3 text-center">
               <RefreshCw className="w-6 h-6 text-violet-400 animate-spin" />
-              <span className="text-xs text-slate-400 font-mono">جاري المعالجة والاستدلال الخوارزمي...</span>
+              <span className="text-xs text-slate-400 font-mono">جاري المعالجة  ...</span>
             </div>
           ) : aiDemoOutput ? (
             <div className="space-y-3 text-xs">
